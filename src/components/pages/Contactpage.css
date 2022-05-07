@@ -1,0 +1,8 @@
+.contact-container{
+    display: grid;
+    place-content: center;
+}
+.contact-container form{
+    display: grid;
+    place-content: center;
+}

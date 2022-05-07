@@ -1,0 +1,26 @@
+.home-container{
+    padding: 0 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.individual-comm{
+    width: 350px;
+    min-height: 300px;
+    padding: 15px;
+    margin: 10px;
+    background: #d0f3d0;
+    border: 1px solid rgb(237, 236, 236);
+}
+
+.individual-comm h2{
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+.individual-comm h3{
+    
+    margin-top: 20px;
+}

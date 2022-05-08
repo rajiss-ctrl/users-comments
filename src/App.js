@@ -31,9 +31,9 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path='/' element={userResource && <Homepage userComm={userResource}/>} />
-          <Route path='/about' element={userResource && <Aboutpage aboutuser={userResource} />} />
-          <Route path='/contact' element={userResource && <Contactpage usercontact={userResource} />} />
+          <Route path='/' element={<Homepage userComm={userResource}/>} />
+          <Route path='/about' element={<Aboutpage aboutuser={userResource} />} />
+          <Route path='/contact' element={<Contactpage usercontact={userResource} />} />
         </Routes>
       </BrowserRouter>
 

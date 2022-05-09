@@ -31,9 +31,9 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path="/ur_homepage_name" element={<Homepage userComm={userResource}/>} />
-          <Route path='/about' element={<Aboutpage aboutuser={userResource} />} />
-          <Route path='/contact' element={<Contactpage usercontact={userResource} />} />
+          <Route path="/" element={<Homepage userComm={userResource}/>} />
+          <Route path="/about" element={<Aboutpage aboutuser={userResource} />} />
+          <Route path="/contact" element={<Contactpage usercontact={userResource} />} />
         </Routes>
       </BrowserRouter>
 

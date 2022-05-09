@@ -8,7 +8,7 @@ const Navbar = () => {
 <nav>
    <h5><Link  to="/">rajiss-ctrl</Link></h5>
    <ul>
-       <li><Link  to="/ur_homepage_name">Home</Link></li>
+       <li><Link  to="/">Home</Link></li>
        <li><Link  to="/about">About</Link></li>
        <li><Link to="/contact">Contacts</Link></li>
    </ul>

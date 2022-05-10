@@ -1,13 +1,13 @@
 import React from 'react'
 import './Contactpage.css'
 
-const Contactpage = ({usercontact}) => {
+const Contact = ({userComm}) => {
   return (
     <div className="contact-container">
       <h1>Select Authors email:</h1>
       <form>
         <select>
-            {usercontact.map((data)=>{
+            {userComm.map((data)=>{
               return(
                 <option value="">{data.email}</option>
               )
@@ -19,4 +19,4 @@ const Contactpage = ({usercontact}) => {
   )
 }
 
-export default Contactpage
+export default Contact;

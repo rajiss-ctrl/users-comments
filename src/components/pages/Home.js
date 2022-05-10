@@ -3,7 +3,7 @@ import React from 'react'
 
 import './Homepage.css'
 
-const Homepage = ({userComm}) => {
+const Home = ({userComm}) => {
   return (
     <div>
          <h1 className='heading'>
@@ -30,4 +30,4 @@ const Homepage = ({userComm}) => {
   )
 }
 
-export default Homepage
+export default Home;

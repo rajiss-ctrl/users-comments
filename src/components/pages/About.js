@@ -3,17 +3,17 @@ import Picker from 'emoji-picker-react';
 import { useState } from 'react';
 import './About.css'
 
-const Aboutpage = ({aboutuser}) => {
+const About = ({userComm}) => {
    const [chosenEmoji, setChosenEmoji] = useState(null);
 
-  const onEmojiClick = (event, emojiObject) => {
+  const onEmojiClick = ( emojiObject) => {
     setChosenEmoji(emojiObject);
   };
   
     return ( 
       <div>
       <div className='about-container'>
-   {aboutuser.map((data)=>{
+   {userComm.map((data)=>{
      return(
        <div  className='about' key={data.id}>
         <h3>Author, name and email</h3>
@@ -44,4 +44,4 @@ const Aboutpage = ({aboutuser}) => {
       </div> 
     )}
 
-export default Aboutpage
+export default About;

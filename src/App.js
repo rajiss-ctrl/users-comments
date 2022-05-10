@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react';
 
 import './App.css';
-import Aboutpage from './components/pages/Aboutpage';
-import Contactpage from './components/pages/Contactpage';
-import Homepage from './components/pages/Homepage';
+import About from './components/pages/About';
+import Contact from './components/pages/Contact';
+import Home from './components/pages/Home';
 import Navbar from './components/reusableComp/Navbar';
 import {
   BrowserRouter,
@@ -31,9 +31,9 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Homepage userComm={userResource}/>} />
-          <Route path="/about" element={<Aboutpage aboutuser={userResource} />} />
-          <Route path="/contact" element={<Contactpage usercontact={userResource} />} />
+          <Route  path="/users-comments" element={<Home userComm={userResource}/>} />
+          <Route path="/about" element={<About userComm={userResource} />} />
+          <Route path="/contact" element={<Contact userComm={userResource} />} />
         </Routes>
       </BrowserRouter>
 
